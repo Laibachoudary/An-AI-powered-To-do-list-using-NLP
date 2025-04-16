@@ -1,1 +1,4 @@
-# An-AI-powered-To-do-list-using-NLP
+Commands
+
+RUN
+npm run dev
