@@ -1,0 +1,27 @@
+.modal {
+    background: #444;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal input,
+  .modal select {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .modal button {
+    padding: 10px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  

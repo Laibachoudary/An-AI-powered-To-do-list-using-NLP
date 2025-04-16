@@ -1,0 +1,45 @@
+.task-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.task-card {
+  background-color: #1e1e1e;
+  border: 1px solid #444;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.task-card:hover {
+  transform: scale(1.01);
+  border-color: #666;
+}
+
+.task-info h4 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+
+.task-info small {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.task-actions button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.task-actions button:hover {
+  color: #00d0ff;
+}
