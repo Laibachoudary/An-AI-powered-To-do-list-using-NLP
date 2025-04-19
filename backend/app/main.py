@@ -1,8 +1,13 @@
 from fastapi import FastAPI
 from app.routes import router
 from fastapi.middleware.cors import CORSMiddleware
+from .database import engine
+from . import models
 
 app = FastAPI()
+
+# Create the database tables
+models.Base.metadata.create_all(bind=engine)
 
 # Enable CORS so frontend can talk to backend
 app.add_middleware(
