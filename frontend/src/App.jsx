@@ -4,6 +4,7 @@ import Sidebar from './components/sidebar';
 import Today from './pages/today';
 import Upcoming from './pages/upcoming';
 import Calendar from './pages/calendar';
+import AddTask from './pages/addtask';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Today />} />
           <Route path="/upcoming" element={<Upcoming />} />
           <Route path="/calendar" element={<Calendar />} />
+          <Route path="/addtask" element={<AddTask />} /> 
         </Routes>
       </div>
     </Router>
