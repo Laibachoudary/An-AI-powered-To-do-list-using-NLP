@@ -1,0 +1,46 @@
+.add-task-container {
+   
+    margin: 2rem 10rem;
+    padding: 4rem;
+    width: 400px ;
+    height: 300px;
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+   
+  }
+  
+  .add-task-container h2 {
+    margin-bottom: 1.5rem;
+    color: white;;
+  }
+  
+  .add-task-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-task-container input {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .add-task-container button {
+    padding: 0.8rem;
+    background-color: #93939c;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-task-container button:hover {
+    background-color: #535bf2;
+  }
+  
